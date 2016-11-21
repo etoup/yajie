@@ -1,0 +1,42 @@
+/**
+ * custom
+ * place custom style in this file
+ * add !important to the end if no effect
+ * e.g. color: #fff !important;
+ * --------------------------------------------------
+ *
+ */
+.table .border-right {
+    border-right: solid 1px #ddd;
+}
+
+.table {
+    border: none;
+    margin-bottom: 0px;
+}
+
+    .table th, .table td {
+        border: none;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 14px;
+        height: 38px;
+        font-weight: normal;
+    }
+.label {
+    padding: .4em .6em .4em;font-weight:normal;
+}
+.label-primary {
+background-color:#1080f2;
+}
+.label-primary[href]:focus, .label-primary[href]:hover{
+    background-color:#2088f2;
+    }
+.thumbnail {
+
+padding:0px;    border-radius:0px;
+}
+.playing {
+
+border-color:#1080f2;
+}
