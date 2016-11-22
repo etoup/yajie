@@ -3,8 +3,8 @@
         <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
            href="#collapseFour" aria-expanded="false"
            aria-controls="collapseFour">
-            <span class="c-blue">Canvas Update v2.1.3</span>
-            <small>August 15, 2016</small>
+            <span class="c-blue">更新版本 v2.1.3</span>
+            <small>2016.08.15</small>
         </a>
     </h4>
 </div>

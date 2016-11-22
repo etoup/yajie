@@ -20,9 +20,9 @@
                     </div>
                 </div>
                 @if(Auth::check())
-                    <p class="text-center"><a href="/admin"><i class="zmdi zmdi-long-arrow-return"></i> Back to the dashboard</a></p>
+                    <p class="text-center"><a href="/admin"><i class="zmdi zmdi-long-arrow-return"></i> 返还控制台</a></p>
                 @else
-                    <p class="text-center"><a href="/"><i class="zmdi zmdi-long-arrow-return"></i> Back to the blog</a></p>
+                    <p class="text-center"><a href="/"><i class="zmdi zmdi-long-arrow-return"></i> 返还首页</a></p>
                 @endif
             </div>
         </section>

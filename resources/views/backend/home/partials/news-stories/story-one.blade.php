@@ -2,8 +2,8 @@
     <h4 class="panel-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
            aria-expanded="true" aria-controls="collapseOne">
-            <span class="c-blue">Canvas Update v2.1.13</span>
-            <small>November 11, 2016</small>
+            <span class="c-blue">更新版本 v2.1.13</span>
+            <small>2016.11.11</small>
         </a>
     </h4>
 </div>

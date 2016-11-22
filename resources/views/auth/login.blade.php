@@ -1,7 +1,7 @@
 @extends('backend.layout')
 
 @section('title')
-    <title>{{ Settings::blogTitle() }} | Sign In</title>
+    <title>{{ Settings::blogTitle() }} | 登录</title>
 @stop
 
 @section('login')
@@ -15,7 +15,7 @@
                             @include('auth.partials.form')
                         </div>
                     </div>
-                    <p class="text-center"><a href="/"><i class="zmdi zmdi-long-arrow-return"></i> Back to the blog</a></p>
+                    <p class="text-center"><a href="/"><i class="zmdi zmdi-long-arrow-return"></i> 返还首页</a></p>
                 </div>
             </section>
         </section>

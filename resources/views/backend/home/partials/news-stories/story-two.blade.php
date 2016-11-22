@@ -2,8 +2,8 @@
     <h4 class="panel-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"
            aria-expanded="true" aria-controls="collapseTwo">
-            <span class="c-blue">Known Issues with Proengsoft</span>
-            <small>October 26, 2016</small>
+            <span class="c-blue">解决已知问题</span>
+            <small>2016.10.26</small>
         </a>
     </h4>
 </div>

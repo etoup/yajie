@@ -1,7 +1,7 @@
 @extends('backend.layout')
 
 @section('title')
-    <title>{{ Settings::blogTitle() }} | Help</title>
+    <title>{{ Settings::blogTitle() }} | 帮助</title>
 @stop
 
 @section('content')
@@ -10,7 +10,7 @@
         <section id="content">
             <div class="container">
                 <div class="block-header">
-                    <h2>Help</h2>
+                    <h2>帮助</h2>
                     <ul class="actions">
                         <li class="dropdown">
                             <a href="" data-toggle="dropdown">
@@ -18,7 +18,7 @@
                             </a>
                             <ul class="dropdown-menu dropdown-menu-right">
                                 <li>
-                                    <a href="{{ url('admin/help') }}"><i class="zmdi zmdi-refresh-alt pd-r-5"></i> Refresh Help</a>
+                                    <a href="{{ url('admin/help') }}"><i class="zmdi zmdi-refresh-alt pd-r-5"></i> 刷新</a>
                                 </li>
                             </ul>
                         </li>
@@ -26,8 +26,8 @@
                 </div>
                 <div class="card">
                     <div class="card-header">
-                        <h2>Help Topics
-                            <small>Help is available for all of the following topics:</small>
+                        <h2>帮助提示
+                            <small>帮助用于以下提示:</small>
                         </h2>
                     </div>
                     <div class="card-body card-padding">

@@ -11,18 +11,18 @@
 
     <div class="form-group fg-line">
         <input type="email" class="form-control"
-               name="email" value="{{ $email or old('email') }}" placeholder="Email">
+               name="email" value="{{ $email or old('email') }}" placeholder="邮箱">
     </div>
 
     <div class="form-group fg-line">
         <input type="password" name="password" class="form-control"
-               placeholder="Password">
+               placeholder="新密码">
     </div>
 
     <div class="form-group fg-line">
         <input type="password" name="password_confirmation" class="form-control"
-               placeholder="Confirm Password">
+               placeholder="确认密码">
     </div>
 
-    <button type="submit" name="submit" class="btn btn-primary m-t-10">Reset my password</button>
+    <button type="submit" name="submit" class="btn btn-primary m-t-10">重置</button>
 </form>

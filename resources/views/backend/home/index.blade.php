@@ -1,7 +1,7 @@
 @extends('backend.layout')
 
 @section('title')
-    <title>{{ \App\Models\Settings::blogTitle() }} | Home</title>
+    <title>{{ \App\Models\Settings::blogTitle() }} | 控制台</title>
 @stop
 
 @section('content')
