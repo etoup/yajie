@@ -1,7 +1,7 @@
 <div class="card">
     <div class="card-header">
-        <h2>Quick Draft
-            <small>Save a quick draft post:</small>
+        <h2>草稿
+            <small>快速保存草稿:</small>
         </h2>
 
         <br>

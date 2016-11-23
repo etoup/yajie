@@ -26,18 +26,18 @@
             }
 
             setTimeout(function () {
-                var message1 = '<strong>ProTip!</strong> Use &#8984;+s or CTL+s as keyboard shortcuts to save a form.';
-                var message2 = '<strong>ProTip!</strong> Use &#8984;+\' to toggle blockquotes in the markdown editor.';
-                var message3 = '<strong>ProTip!</strong> Use &#8984;+b to toggle bold text in the markdown editor.';
-                var message4 = '<strong>ProTip!</strong> Use &#8984;+h to toggle headings in the markdown editor.';
-                var message5 = '<strong>ProTip!</strong> Use &#8984;+i to toggle italics text in the markdown editor.';
-                var message6 = '<strong>ProTip!</strong> Use &#8984;+k to draw a link in the markdown editor.';
-                var message7 = '<strong>ProTip!</strong> Use &#8984;+l to draw an unordered list in the markdown editor.';
-                var message8 = '<strong>ProTip!</strong> Use &#8984;+Alt+c to toggle a code block in the markdown editor.';
-                var message9 = '<strong>ProTip!</strong> Use &#8984;+Alt+i to draw an image in the markdown editor.';
-                var message10 = '<strong>ProTip!</strong> Use &#8984;+Alt-l to toggle an ordered list in the markdown editor.';
-                var message11 = '<strong>ProTip!</strong> Use F9 to toggle the side by side view markdown editor.';
-                var message12 = '<strong>ProTip!</strong> Use F11 to toggle the fullscreen view of the markdown editor.';
+                var message1 = '<strong>提示!</strong> 使用 &#8984;+s or CTL+s 作为键盘快捷键来保存窗体.';
+                var message2 = '<strong>提示!</strong> 使用 &#8984;+\' 在markdown编辑器切换引用.';
+                var message3 = '<strong>提示!</strong> 使用 &#8984;+b 在markdown编辑器切换粗体文本.';
+                var message4 = '<strong>提示!</strong> 使用 &#8984;+h 在markdown编辑器切换标题.';
+                var message5 = '<strong>提示!</strong> 使用 &#8984;+i 在markdown编辑器切换斜体文本.';
+                var message6 = '<strong>提示!</strong> 使用 &#8984;+k 在markdown编辑器绘制链接.';
+                var message7 = '<strong>提示!</strong> 使用 &#8984;+l 在markdown编辑器绘制一个无序列表.';
+                var message8 = '<strong>提示!</strong> 使用 &#8984;+Alt+c 在markdown编辑器切换代码块.';
+                var message9 = '<strong>提示!</strong> 使用 &#8984;+Alt+i 在markdown编辑器绘制图像.';
+                var message10 = '<strong>提示!</strong> 使用 &#8984;+Alt-l 在markdown编辑器切换有序列表.';
+                var message11 = '<strong>提示!</strong> 使用 F9 在markdown编辑器切换侧视图.';
+                var message12 = '<strong>提示!</strong> 使用 F11 在markdown编辑器切换全屏视图.';
                 var options = [
                     message1,
                     message2,

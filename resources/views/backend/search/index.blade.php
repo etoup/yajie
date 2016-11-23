@@ -1,7 +1,7 @@
 @extends('backend.layout')
 
 @section('title')
-    <title>{{ Settings::blogTitle() }} | Search</title>
+    <title>{{ Settings::blogTitle() }} | 搜索</title>
 @stop
 
 @section('content')
@@ -12,10 +12,10 @@
                 <div class="card">
                     <div class="card-header">
                         <ol class="breadcrumb">
-                            <li><a href="{{ url('admin') }}">Home</a></li>
-                            <li class="active">Search</li>
+                            <li><a href="{{ url('admin') }}">控制台</a></li>
+                            <li class="active">搜索</li>
                         </ol>
-                        <h2><i class="zmdi zmdi-search"></i> Search Results for <em>{{ request('search') }}</em></h2>
+                        <h2><i class="zmdi zmdi-search"></i> 搜索结果于 <em>{{ request('search') }}</em></h2>
                         <br>
                         <div class="table-responsive">
                             @include('backend.search.partials.results')

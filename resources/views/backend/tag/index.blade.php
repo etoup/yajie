@@ -1,7 +1,7 @@
 @extends('backend.layout')
 
 @section('title')
-    <title>{{ Settings::blogTitle() }} | Tags</title>
+    <title>{{ Settings::blogTitle() }} | 标签</title>
 @stop
 
 @section('content')
@@ -12,8 +12,8 @@
                 <div class="card">
                     <div class="card-header">
                         <ol class="breadcrumb">
-                            <li><a href="{{ url('admin') }}">Home</a></li>
-                            <li class="active">Tags</li>
+                            <li><a href="{{ url('admin') }}">控制台</a></li>
+                            <li class="active">标签</li>
                         </ol>
                         <ul class="actions">
                             <li class="dropdown">
@@ -22,16 +22,16 @@
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-right">
                                     <li>
-                                        <a href="{{ url('admin/tag') }}"><i class="zmdi zmdi-refresh-alt pd-r-5"></i> Refresh Tags</a>
+                                        <a href="{{ url('admin/tag') }}"><i class="zmdi zmdi-refresh-alt pd-r-5"></i> 刷新</a>
                                     </li>
                                 </ul>
                             </li>
                         </ul>
                         @include('shared.errors')
                         @include('shared.success')
-                        <h2>Tags&nbsp;
+                        <h2>标签&nbsp;
                             <a href="{{ url('admin/tag/create') }}"><i class="zmdi zmdi-plus-circle" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Create a new tag"></i></a>
-                            <small>This page provides a comprehensive overview of all your blog tags. Click the <span class="zmdi zmdi-edit text-primary"></span> icon next to each tag to update its contents.</small>
+                            <small>本页提供了所有您的博客标签的全面概述. 点击在每个标签旁边的图标 <span class="zmdi zmdi-edit text-primary"></span> 来更新它的内容.</small>
                         </h2>
                     </div>
 
@@ -40,12 +40,12 @@
                             <thead>
                                 <tr>
                                     <th data-column-id="id" data-type="numeric" data-order="desc">Id</th>
-                                    <th data-column-id="title">Title</th>
-                                    <th data-column-id="subtitle">Subtitle</th>
-                                    <th data-column-id="layout">Layout</th>
-                                    <th data-column-id="direction">Direction</th>
-                                    <th data-column-id="created" data-type="date">Created</th>
-                                    <th data-column-id="commands" data-formatter="commands" data-sortable="false">Actions</th>
+                                    <th data-column-id="title">标题</th>
+                                    <th data-column-id="subtitle">副标题</th>
+                                    <th data-column-id="layout">布局</th>
+                                    <th data-column-id="direction">状态</th>
+                                    <th data-column-id="created" data-type="date">创建</th>
+                                    <th data-column-id="commands" data-formatter="commands" data-sortable="false">操作</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -57,9 +57,9 @@
                                         <td class="hidden-md">{{ $tag->layout }}</td>
                                         <td class="hidden-sm">
                                             @if ($tag->reverse_direction)
-                                                Reverse
+                                                撤销
                                             @else
-                                                Normal
+                                                正常
                                             @endif
                                         </td>
                                         <td>{{ $tag->created_at->format('M d, Y') }}</td>

@@ -3,7 +3,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">×</button>
-                <h4 class="modal-title">Markdown Guide</h4>
+                <h4 class="modal-title">Markdown 使用指南</h4>
             </div>
             <div class="modal-body">
                 <h4>Emphasis</h4>

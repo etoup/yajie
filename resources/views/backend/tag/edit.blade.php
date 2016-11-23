@@ -1,7 +1,7 @@
 @extends('backend.layout')
 
 @section('title')
-    <title>{{ Settings::blogTitle() }} | Edit Tag</title>
+    <title>{{ Settings::blogTitle() }} | 更新标签</title>
 @stop
 
 @section('content')
@@ -12,14 +12,14 @@
                 <div class="card">
                     <div class="card-header">
                         <ol class="breadcrumb">
-                            <li><a href="{{ url('admin') }}">Home</a></li>
-                            <li><a href="{{ url('admin/tag') }}">Tags</a></li>
-                            <li class="active">Edit Tag</li>
+                            <li><a href="{{ url('admin') }}">控制台</a></li>
+                            <li><a href="{{ url('admin/tag') }}">标签</a></li>
+                            <li class="active">更新标签</li>
                         </ol>
                         @include('shared.errors')
                         @include('shared.success')
                         <h2>
-                            Edit <em>{{ $data['title'] }}</em>
+                            编辑 <em>{{ $data['title'] }}</em> 标签
                             <small>
                                 @if(isset($data['updated_at']))
                                     Last edited on {{$data['updated_at']->format('M d, Y') }} at {{ $data['updated_at']->format('g:i A') }}
@@ -40,10 +40,10 @@
 
                             <div class="form-group">
                                 <button type="submit" class="btn btn-primary btn-icon-text">
-                                    <i class="zmdi zmdi-floppy"></i> Save
+                                    <i class="zmdi zmdi-floppy"></i> 保存
                                 </button>&nbsp;
                                 <button type="button" class="btn btn-danger btn-icon-text" data-toggle="modal" data-target="#modal-delete">
-                                    <i class="zmdi zmdi-delete"></i> Delete
+                                    <i class="zmdi zmdi-delete"></i> 删除
                                 </button>
                             </div>
                         </form>

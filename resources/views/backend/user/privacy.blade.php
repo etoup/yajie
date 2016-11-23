@@ -1,7 +1,7 @@
 @extends('backend.layout')
 
 @section('title')
-    <title>{{ Settings::blogTitle() }} | Edit User Privacy</title>
+    <title>{{ Settings::blogTitle() }} | 编辑用户隐私</title>
 @stop
 
 @section('content')
@@ -10,7 +10,7 @@
         <section id="content">
             <div class="container container-alt">
                 <div class="block-header">
-                    <h2>User Profile</h2>
+                    <h2>用户隐私</h2>
                     <ul class="actions">
                         <li class="dropdown">
                             <a href="" data-toggle="dropdown">
@@ -18,7 +18,7 @@
                             </a>
                             <ul class="dropdown-menu dropdown-menu-right">
                                 <li>
-                                    <a href="{{ url('admin/user/' . $data['id'] . '/edit') }}"><i class="zmdi zmdi-refresh-alt pd-r-5"></i> Refresh User</a>
+                                    <a href="{{ url('admin/user/' . $data['id'] . '/edit') }}"><i class="zmdi zmdi-refresh-alt pd-r-5"></i> 刷新</a>
                                 </li>
                             </ul>
                         </li>
@@ -29,10 +29,10 @@
                     <div class="pm-body clearfix">
                         <ul class="tab-nav tn-justified">
                             <li class="{{ Route::is('admin.user.edit') ? 'active' : '' }}">
-                                <a href="{{ url('admin/user/' . $data['id'] . '/edit') }}">Profile</a>
+                                <a href="{{ url('admin/user/' . $data['id'] . '/edit') }}">简况</a>
                             </li>
                             <li class="{{ Route::is('admin.user.privacy') ? 'active' : '' }}">
-                                <a href="{{ url('/admin/user/' . $data['id'] . '/privacy') }}">Privacy</a>
+                                <a href="{{ url('/admin/user/' . $data['id'] . '/privacy') }}">安全</a>
                             </li>
                         </ul>
                         <div class="pmb-block">
@@ -46,7 +46,7 @@
                             @endif
 
                             <div class="pmbb-header">
-                                <h2><i class="zmdi zmdi-shield-security m-r-10"></i> Change Password</h2>
+                                <h2><i class="zmdi zmdi-shield-security m-r-10"></i> 修改密码</h2>
                             </div>
 
                             <div class="pmbb-body p-l-30">

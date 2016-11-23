@@ -1,10 +1,8 @@
 <div class="card">
     <div class="card-header">
-        <h2>Maintenance Mode
-            <small>Take the site offline for maintenance or bring it back online. Once activated, all public traffic
-                   will see a <em>503 - Be Back Soon</em> page. As an administrator, you will
-                   have full access to both the backend and frontend of the blog. Once you are ready to go live,
-                   make the site active again by disabling maintenance mode.
+        <h2>维护模式
+            <small>
+                   维护模式一旦开启，所有的公共地址显示一个503页面。作为管理员，您将有进入系统前端和控制台。一旦你准备好了，通过禁用维护模式，使网站再次激活。
             </small>
         </h2>
     </div>
@@ -13,14 +11,14 @@
             <form class="form-inline" action="{{ url('admin/tools/enable_maintenance_mode') }}" method="POST">
                 <input type="hidden" name="_token" value="{{ csrf_token() }}">
                 <button class="btn btn-primary btn-icon-text" id="maintenance_mode">
-                    <i class="zmdi zmdi-alert-octagon"></i> Enable Maintenance Mode
+                    <i class="zmdi zmdi-alert-octagon"></i> 开启维护模式
                 </button>
             </form>
         @else
             <form class="form-inline" action="{{ url('admin/tools/disable_maintenance_mode') }}" method="POST">
                 <input type="hidden" name="_token" value="{{ csrf_token() }}">
                 <button class="btn btn-warning btn-icon-text" id="maintenance_mode">
-                    <i class="zmdi zmdi-alert-octagon"></i> Disable Maintenance Mode
+                    <i class="zmdi zmdi-alert-octagon"></i> 关闭维护模式
                 </button>
             </form>
         @endif

@@ -6,8 +6,8 @@
 
     <div class="form-group">
         <div class="fg-line">
-            <label class="fg-label">New Password</label>
-            <input type="password" class="form-control" name="new_password" id="new_password" placeholder="New Password">
+            <label class="fg-label">新密码</label>
+            <input type="password" class="form-control" name="new_password" id="new_password" placeholder="新密码">
         </div>
     </div>
 
@@ -15,14 +15,14 @@
 
     <div class="form-group">
         <div class="fg-line">
-            <label class="fg-label">Confirm New Password</label>
-            <input type="password" class="form-control" name="new_password_confirmation" id="new_password_confirmation" placeholder="Confirm New Password">
+            <label class="fg-label">确认新密码</label>
+            <input type="password" class="form-control" name="new_password_confirmation" id="new_password_confirmation" placeholder="确认新密码">
         </div>
     </div>
 
     <div class="form-group">
-        <button type="submit" class="btn btn-primary btn-icon-text"><i class="zmdi zmdi-floppy"></i> Save</button>
+        <button type="submit" class="btn btn-primary btn-icon-text"><i class="zmdi zmdi-floppy"></i> 保存</button>
         &nbsp;
-        <a href="{{ url('admin/user/' . $data['id'] . '/edit') }}"><button type="button" class="btn btn-link">Cancel</button></a>
+        <a href="{{ url('admin/user/' . $data['id'] . '/edit') }}"><button type="button" class="btn btn-link">取消</button></a>
     </div>
 </form>

@@ -1,7 +1,7 @@
 @extends('backend.profile.layout')
 
 @section('title')
-    <title>{{ Settings::blogTitle() }} | Edit Privacy</title>
+    <title>{{ Settings::blogTitle() }} | 编辑隐私</title>
 @stop
 
 @section('profile-content')
@@ -9,7 +9,7 @@
 
   <div class="pmb-block">
       <div class="pmbb-header">
-          <h2><i class="zmdi zmdi-shield-security m-r-10"></i> Change Password</h2>
+          <h2><i class="zmdi zmdi-shield-security m-r-10"></i> 修改密码</h2>
       </div>
 
       <div class="pmbb-body p-l-30">

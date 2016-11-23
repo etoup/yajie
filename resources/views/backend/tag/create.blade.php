@@ -1,7 +1,7 @@
 @extends('backend.layout')
 
 @section('title')
-    <title>{{ Settings::blogTitle() }} | New Tag</title>
+    <title>{{ Settings::blogTitle() }} | 新增标签</title>
 @stop
 
 @section('content')
@@ -12,13 +12,13 @@
                 <div class="card">
                     <div class="card-header">
                         <ol class="breadcrumb">
-                            <li><a href="{{ url('admin') }}">Home</a></li>
-                            <li><a href="{{ url('admin/tag') }}">Tags</a></li>
-                            <li class="active">New Tag</li>
+                            <li><a href="{{ url('admin') }}">控制台</a></li>
+                            <li><a href="{{ url('admin/tag') }}">标签</a></li>
+                            <li class="active">新增标签</li>
                         </ol>
                         @include('shared.errors')
                         @include('shared.success')
-                        <h2>Create a New Tag</h2>
+                        <h2>新增一个标签</h2>
                     </div>
                     <div class="card-body card-padding">
                         <form class="keyboard-save" role="form" method="POST" id="tagUpdate" action="{{ url('admin/tag') }}">
@@ -27,9 +27,9 @@
                             @include('backend.tag.partials.form')
 
                             <div class="form-group">
-                                <button type="submit" class="btn btn-primary btn-icon-text"><i class="zmdi zmdi-floppy"></i> Save</button>
+                                <button type="submit" class="btn btn-primary btn-icon-text"><i class="zmdi zmdi-floppy"></i> 保存</button>
                                 &nbsp;
-                                <a href="{{ url('admin/tag') }}"><button type="button" class="btn btn-link">Cancel</button></a>
+                                <a href="{{ url('admin/tag') }}"><button type="button" class="btn btn-link">取消</button></a>
                             </div>
                         </form>
                     </div>

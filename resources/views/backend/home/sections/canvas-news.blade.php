@@ -1,7 +1,7 @@
 <div class="card">
     <div class="card-header">
-        <h2>Canvas News
-            <small>Stay up to date with everything Canvas!</small>
+        <h2>系统消息
+            <small>系统更新列表</small>
         </h2>
         <br>
         <div class="panel-group" role="tablist" aria-multiselectable="true">

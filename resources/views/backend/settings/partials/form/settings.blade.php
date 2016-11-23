@@ -5,8 +5,8 @@
 
     <div class="form-group">
         <div class="fg-line">
-            <label class="fg-label">Blog Title</label>
-            <input type="text" class="form-control" name="blog_title" id="blog_title" value="{{ $data['blogTitle'] }}" placeholder="Blog Title">
+            <label class="fg-label">标题</label>
+            <input type="text" class="form-control" name="blog_title" id="blog_title" value="{{ $data['blogTitle'] }}" placeholder="标题">
         </div>
     </div>
 
@@ -14,47 +14,47 @@
 
     <div class="form-group">
         <div class="fg-line">
-            <label class="fg-label">Blog Subtitle</label>
-            <input type="text" class="form-control" name="blog_subtitle" id="blog_subtitle" value="{{ $data['blogSubtitle'] }}" placeholder="Blog Subtitle">
+            <label class="fg-label">副标题</label>
+            <input type="text" class="form-control" name="blog_subtitle" id="blog_subtitle" value="{{ $data['blogSubtitle'] }}" placeholder="副标题">
         </div>
-        <small>In a few words, explain what this site is about.</small>
+        <small>用几句话，介绍一下这个网站是做什么的.</small>
     </div>
 
     <br>
 
     <div class="form-group">
         <div class="fg-line">
-            <label class="fg-label">Blog Description</label>
-            <input type="text" class="form-control" name="blog_description" id="blog_description" value="{{ $data['blogDescription'] }}" placeholder="Blog Description">
+            <label class="fg-label">描述</label>
+            <input type="text" class="form-control" name="blog_description" id="blog_description" value="{{ $data['blogDescription'] }}" placeholder="描述">
         </div>
-        <small>Set the blog description that you would like to add to the <code>description</code> meta tag.</small>
+        <small>设置你想添加到描述（<code>description</code>）元标签的博客描述.</small>
     </div>
 
     <br>
 
     <div class="form-group">
         <div class="fg-line">
-            <label class="fg-label">Blog SEO</label>
+            <label class="fg-label">关键字</label>
             <input type="text" class="form-control" name="blog_seo" id="blog_seo" value="{{ $data['blogSeo'] }}" placeholder="Blog SEO">
         </div>
-        <small>Define in comma-delimited form the blog SEO tags that you want in the <code>keywords</code> meta tag.</small>
+        <small>填写用逗号分隔搜索引擎优化关键字（<code>keywords</code>）标签.</small>
     </div>
 
     <br>
 
     <div class="form-group">
         <div class="fg-line">
-            <label class="fg-label">Blog Author</label>
+            <label class="fg-label">作者</label>
             <input type="text" class="form-control" name="blog_author" id="blog_author" value="{{ $data['blogAuthor'] }}" placeholder="Blog Author">
         </div>
-        <small>Set the name that you want to appear in the <code>author</code> meta tag.</small>
+        <small>设置将要出现的名称为作者（<code>author</code>）元标签.</small>
     </div>
 
     <br>
 
     <div class="form-group">
         <div class="fg-line">
-            <label class="fg-label"><i class="zmdi zmdi-disqus"></i> Disqus</label>
+            <label class="fg-label"><i class="zmdi zmdi-disqus"></i> Disqus用户评论</label>
             <input type="text" class="form-control" name="disqus_name" id="disqus_name" value="{{ $data['disqus'] }}" placeholder="Disqus Shortname">
         </div>
         <small>Enter your Disqus shortname to enable comments in your blog posts or <a href="https://github.com/austintoddj/canvas#advanced-options" target="_blank">learn more about this option</a>.</small>
@@ -87,6 +87,6 @@
     <br>
 
     <div class="form-group">
-        <button type="submit" class="btn btn-primary btn-icon-text"><i class="zmdi zmdi-floppy"></i> Save Changes</button>
+        <button type="submit" class="btn btn-primary btn-icon-text"><i class="zmdi zmdi-floppy"></i> 保存更改</button>
     </div>
 </form>

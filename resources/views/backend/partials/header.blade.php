@@ -45,7 +45,7 @@
         <div id="top-search-wrap">
             <div class="tsw-inner">
                 <i id="top-search-close" class="zmdi zmdi-arrow-left"></i>
-                <input type="text" placeholder="Search" name="search">
+                <input type="text" placeholder="搜索" name="search">
             </div>
         </div>
     </form>

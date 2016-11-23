@@ -1,7 +1,7 @@
 @extends('backend.layout')
 
 @section('title')
-    <title>{{ Settings::blogTitle() }} | Settings</title>
+    <title>{{ Settings::blogTitle() }} | 设置</title>
 @stop
 
 @section('content')
@@ -18,7 +18,7 @@
                             </a>
                             <ul class="dropdown-menu dropdown-menu-right">
                                 <li>
-                                    <a href="{{ url('admin/settings') }}"><i class="zmdi zmdi-refresh-alt pd-r-5"></i> Refresh Settings</a>
+                                    <a href="{{ url('admin/settings') }}"><i class="zmdi zmdi-refresh-alt pd-r-5"></i> 刷新</a>
                                 </li>
                             </ul>
                         </li>

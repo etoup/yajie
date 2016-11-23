@@ -1,6 +1,6 @@
 <div class="card">
     <div class="card-header">
-        <h2>System Information
+        <h2>系统信息
             <small>To best assist you in any issues you encounter, please provide this information (ideally as a link to a <a href="https://gist.github.com/" target="_blank">Gist</a>) when requested by support staff.</small>
         </h2>
     </div>

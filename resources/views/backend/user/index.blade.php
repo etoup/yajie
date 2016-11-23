@@ -1,7 +1,7 @@
 @extends('backend.layout')
 
 @section('title')
-    <title>{{ Settings::blogTitle() }} | Users</title>
+    <title>{{ Settings::blogTitle() }} | 用户</title>
 @stop
 
 @section('content')
@@ -12,8 +12,8 @@
                 <div class="card">
                     <div class="card-header">
                         <ol class="breadcrumb">
-                            <li><a href="{{ url('admin') }}">Home</a></li>
-                            <li class="active">Users</li>
+                            <li><a href="{{ url('admin') }}">控制台</a></li>
+                            <li class="active">用户</li>
                         </ol>
                         <ul class="actions">
                             <li class="dropdown">
@@ -22,17 +22,17 @@
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-right">
                                     <li>
-                                        <a href="{{ url('admin/user') }}"><i class="zmdi zmdi-refresh-alt pd-r-5"></i> Refresh Users</a>
+                                        <a href="{{ url('admin/user') }}"><i class="zmdi zmdi-refresh-alt pd-r-5"></i> 刷新</a>
                                     </li>
                                 </ul>
                             </li>
                         </ul>
                         @include('shared.errors')
                         @include('shared.success')
-                        <h2>Users&nbsp;
+                        <h2>用户&nbsp;
                             <a href="{{ url('admin/user/create') }}"><i class="zmdi zmdi-plus-circle" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Create a new user"></i></a>
 
-                            <small>This page provides a comprehensive overview of all the current users. Click the <span class="zmdi zmdi-edit text-primary"></span> icon next to each user to update their site access or remove them from the system.</small>
+                            <small>此页提供了所有当前用户的全面概述. 点击图标 <span class="zmdi zmdi-edit text-primary"></span> 来更新和删除用户信息.</small>
                         </h2>
                     </div>
 
@@ -41,11 +41,11 @@
                             <thead>
                             <tr>
                                 <th data-column-id="id" data-type="numeric" data-order="asc">ID</th>
-                                <th data-column-id="display_name">Name</th>
-                                <th data-column-id="email">Email</th>
-                                <th data-column-id="role">Role</th>
-                                <th data-column-id="posts">Posts</th>
-                                <th data-column-id="commands" data-formatter="commands" data-sortable="false">Actions</th>
+                                <th data-column-id="display_name">姓名</th>
+                                <th data-column-id="email">邮箱</th>
+                                <th data-column-id="role">角色</th>
+                                <th data-column-id="posts">文章数</th>
+                                <th data-column-id="commands" data-formatter="commands" data-sortable="false">操作</th>
                             </tr>
                             </thead>
                             <tbody>
@@ -54,7 +54,7 @@
                                     <td>{{ $user->id }}</td>
                                     <td>{{ $user->display_name }}</td>
                                     <td>{{ $user->email }}</td>
-                                    <td>{{ $user->isAdmin($user->role) ? '<span class="label label-primary">Administrator</span>' : '<span class="label label-default">User</span>' }}</td>
+                                    <td>{{ $user->isAdmin($user->role) ? '<span class="label label-primary">管理员</span>' : '<span class="label label-default">用户</span>' }}</td>
                                     <td>{{ $user->postCount($user->id) }}</td>
                                 </tr>
                             @endforeach

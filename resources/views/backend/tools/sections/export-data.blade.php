@@ -1,12 +1,7 @@
 <div class="card">
     <div class="card-header">
-        <h2>Export Data
-            <small>When you click the button below Canvas will create a directory of CSV files for you
-                to save to your
-                computer. This archive will contain all the posts, tags, user information and relations
-                in the system.
-                Once the download has completed, you can use it to easily import into another Canvas
-                installation.
+        <h2>导出数据
+            <small>当你点击下面的按钮系统将为你保存到你的电脑上创建一个目录的CSV文件。该文档将包含系统中的所有的帖子、标签、用户信息和关系。一旦下载完成，就可以使用它轻松地导入到另一个安装的系统中。
             </small>
         </h2>
     </div>
@@ -14,7 +9,7 @@
         <form class="form-inline" action="{{ url('admin/tools/download_archive') }}" method="POST">
             <input type="hidden" name="_token" value="{{ csrf_token() }}">
             <button class="btn btn-primary btn-icon-text" id="download_archive">
-                <i class="zmdi zmdi-archive"></i> Download Archive
+                <i class="zmdi zmdi-archive"></i> 下载
             </button>
         </form>
     </div>

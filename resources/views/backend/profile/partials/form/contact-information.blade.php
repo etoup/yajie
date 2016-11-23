@@ -2,8 +2,8 @@
 
 <div class="form-group">
     <div class="fg-line">
-      <label class="fg-label">Mobile Phone</label>
-      <input type="text" class="form-control" name="phone" id="phone" value="{{ $data['phone'] }}" placeholder="Mobile Phone">
+      <label class="fg-label">手机号码</label>
+      <input type="text" class="form-control" name="phone" id="phone" value="{{ $data['phone'] }}" placeholder="手机号码">
     </div>
 </div>
 
@@ -11,8 +11,8 @@
 
 <div class="form-group">
     <div class="fg-line">
-      <label class="fg-label">Email Address</label>
-      <input type="email" class="form-control" name="email" id="email" value="{{ $data['email'] }}" placeholder="Email Address">
+      <label class="fg-label">邮箱地址</label>
+      <input type="email" class="form-control" name="email" id="email" value="{{ $data['email'] }}" placeholder="邮箱地址">
     </div>
 </div>
 
@@ -20,8 +20,8 @@
 
 <div class="form-group">
     <div class="fg-line">
-      <label class="fg-label">Address</label>
-      <input type="text" class="form-control" name="address" id="address" value="{{ $data['address'] }}" placeholder="Address">
+      <label class="fg-label">地址</label>
+      <input type="text" class="form-control" name="address" id="address" value="{{ $data['address'] }}" placeholder="地址">
     </div>
 </div>
 
@@ -29,8 +29,8 @@
 
 <div class="form-group">
     <div class="fg-line">
-      <label class="fg-label">City</label>
-      <input type="text" class="form-control" name="city" id="city" value="{{ $data['city'] }}" placeholder="City">
+      <label class="fg-label">城市</label>
+      <input type="text" class="form-control" name="city" id="city" value="{{ $data['city'] }}" placeholder="城市">
     </div>
 </div>
 
@@ -38,8 +38,8 @@
 
 <div class="form-group">
     <div class="fg-line">
-      <label class="fg-label">Country</label>
-      <input type="text" class="form-control" name="country" id="country" value="{{ $data['country'] }}" placeholder="Country">
+      <label class="fg-label">国家</label>
+      <input type="text" class="form-control" name="country" id="country" value="{{ $data['country'] }}" placeholder="国家">
     </div>
 </div>
 

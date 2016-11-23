@@ -1,7 +1,7 @@
 @extends('backend.layout')
 
 @section('title')
-    <title>{{ Settings::blogTitle() }} | Posts</title>
+    <title>{{ Settings::blogTitle() }} | 文章</title>
 @stop
 
 @section('content')
@@ -12,8 +12,8 @@
                 <div class="card">
                     <div class="card-header">
                         <ol class="breadcrumb">
-                            <li><a href="{{ url('admin') }}">Home</a></li>
-                            <li class="active">Posts</li>
+                            <li><a href="{{ url('admin') }}">控制台</a></li>
+                            <li class="active">文章</li>
                         </ol>
                         <ul class="actions">
                             <li class="dropdown">
@@ -22,17 +22,17 @@
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-right">
                                     <li>
-                                        <a href="{{ url('admin/post') }}"><i class="zmdi zmdi-refresh-alt pd-r-5"></i> Refresh Posts</a>
+                                        <a href="{{ url('admin/post') }}"><i class="zmdi zmdi-refresh-alt pd-r-5"></i> 刷新</a>
                                     </li>
                                 </ul>
                             </li>
                         </ul>
                         @include('shared.errors')
                         @include('shared.success')
-                        <h2>Posts&nbsp;
+                        <h2>文章&nbsp;
                             <a href="{{ url('admin/post/create') }}"><i class="zmdi zmdi-plus-circle" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Create a new post"></i></a>
 
-                            <small>This page provides a comprehensive overview of all your blog posts. Click the <span class="zmdi zmdi-edit text-primary"></span> icon next to each post to update its contents or the <span class="zmdi zmdi-search text-primary"></span> icon to see what it looks like to your readers.</small>
+                            <small>你的博客文章本页面提供了一个全面的概述. 点击这个按钮 <span class="zmdi zmdi-edit text-primary"></span> 编辑你的文章. 点击这个按钮 <span class="zmdi zmdi-search text-primary"></span> 查看内容.</small>
                         </h2>
                     </div>
 
@@ -41,12 +41,12 @@
                             <thead>
                                 <tr>
                                     <th data-column-id="id" data-type="numeric" data-order="desc">ID</th>
-                                    <th data-column-id="title">Title</th>
-                                    <th data-column-id="author">Author</th>
-                                    <th data-column-id="published">Status</th>
-                                    <th data-column-id="slug">Slug</th>
-                                    <th data-column-id="date" data-type="date" data-formatter="humandate">Date</th>
-                                    <th data-column-id="commands" data-formatter="commands" data-sortable="false">Actions</th>
+                                    <th data-column-id="title">标题</th>
+                                    <th data-column-id="author">作者</th>
+                                    <th data-column-id="published">状态</th>
+                                    <th data-column-id="slug">别名</th>
+                                    <th data-column-id="date" data-type="date" data-formatter="humandate">时间</th>
+                                    <th data-column-id="commands" data-formatter="commands" data-sortable="false">操作</th>
                                 </tr>
                             </thead>
                             <tbody>

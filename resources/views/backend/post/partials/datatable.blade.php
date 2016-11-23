@@ -2,7 +2,7 @@
     $(document).ready(function(){
         $("#posts").bootgrid({
             labels: {
-                noResults: "No posts yet."
+                noResults: "哦耶,没有文章."
             },
             css: {
                 icon: 'zmdi icon',

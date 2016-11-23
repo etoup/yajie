@@ -1,7 +1,7 @@
 @extends('backend.layout')
 
 @section('title')
-    <title>{{ Settings::blogTitle() }} | Media</title>
+    <title>{{ Settings::blogTitle() }} | 媒体</title>
 @stop
 
 @section('content')
@@ -12,8 +12,8 @@
                 <div class="card">
                     <div class="card-header">
                         <ol class="breadcrumb">
-                            <li><a href="{{ url('admin') }}">Home</a></li>
-                            <li class="active">Media</li>
+                            <li><a href="{{ url('admin') }}">控制台</a></li>
+                            <li class="active">媒体</li>
                         </ol>
                         <ul class="actions">
                             <li class="dropdown">
@@ -22,14 +22,14 @@
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-right">
                                     <li>
-                                        <a href="{{ url('admin/upload') }}"><i class="zmdi zmdi-refresh-alt pd-r-5"></i> Refresh Media</a>
+                                        <a href="{{ url('admin/upload') }}"><i class="zmdi zmdi-refresh-alt pd-r-5"></i> 刷新</a>
                                     </li>
                                 </ul>
                             </li>
                         </ul>
-                        <h2>Media Library
-                            <small>All the files you’ve uploaded are listed alphabetically in the Media Library. Double-click a folder name to
-                                see its contents.
+                        <h2>媒体库
+                            <small>
+                                所有你所上传的文件按字母顺序列出媒体库中。双击一个文件夹名称，查看其内容。
                             </small>
                         </h2>
                     </div>

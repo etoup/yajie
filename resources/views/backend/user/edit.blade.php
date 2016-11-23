@@ -1,7 +1,7 @@
 @extends('backend.layout')
 
 @section('title')
-    <title>{{ Settings::blogTitle() }} | Edit User</title>
+    <title>{{ Settings::blogTitle() }} | 更新用户</title>
 @stop
 
 @section('content')
@@ -10,7 +10,7 @@
         <section id="content">
             <div class="container container-alt">
                 <div class="block-header">
-                    <h2>User Profile</h2>
+                    <h2>用户信息</h2>
                     <ul class="actions">
                         <li class="dropdown">
                             <a href="" data-toggle="dropdown">
@@ -18,7 +18,7 @@
                             </a>
                             <ul class="dropdown-menu dropdown-menu-right">
                                 <li>
-                                    <a href="{{ url('admin/user/' . $data['id'] . '/edit') }}"><i class="zmdi zmdi-refresh-alt pd-r-5"></i> Refresh User</a>
+                                    <a href="{{ url('admin/user/' . $data['id'] . '/edit') }}"><i class="zmdi zmdi-refresh-alt pd-r-5"></i> 刷新</a>
                                 </li>
                             </ul>
                         </li>
@@ -29,10 +29,10 @@
                     <div class="pm-body clearfix">
                         <ul class="tab-nav tn-justified">
                             <li class="{{ Route::is('admin.user.edit') ? 'active' : '' }}">
-                                <a href="{{ url('admin/user/' . $data['id'] . '/edit') }}">Profile</a>
+                                <a href="{{ url('admin/user/' . $data['id'] . '/edit') }}">简况</a>
                             </li>
                             <li class="{{ Route::is('admin.user.privacy') ? 'active' : '' }}">
-                                <a href="{{ url('/admin/user/' . $data['id'] . '/privacy') }}">Privacy</a>
+                                <a href="{{ url('/admin/user/' . $data['id'] . '/privacy') }}">安全</a>
                             </li>
                         </ul>
                         @if(Session::has('errors') || Session::has('success'))

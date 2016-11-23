@@ -1,7 +1,7 @@
 @extends('backend.layout')
 
 @section('title')
-    <title>{{ Settings::blogTitle() }} | Tools</title>
+    <title>{{ Settings::blogTitle() }} | 工具</title>
 @stop
 
 @section('content')
@@ -10,7 +10,7 @@
         <section id="content">
             <div class="container">
                 <div class="block-header">
-                    <h2>Tools</h2>
+                    <h2>工具</h2>
                     <ul class="actions">
                         <li class="dropdown">
                             <a href="" data-toggle="dropdown">
@@ -18,7 +18,7 @@
                             </a>
                             <ul class="dropdown-menu dropdown-menu-right">
                                 <li>
-                                    <a href="{{ url('admin/tools') }}"><i class="zmdi zmdi-refresh-alt pd-r-5"></i> Refresh Tools</a>
+                                    <a href="{{ url('admin/tools') }}"><i class="zmdi zmdi-refresh-alt pd-r-5"></i> 刷新</a>
                                 </li>
                             </ul>
                         </li>

@@ -2,7 +2,7 @@
     $(document).ready(function(){
         $("#tags").bootgrid({
             labels: {
-                noResults: "No tags yet."
+                noResults: "噢耶，没有标签."
             },
             css: {
                 icon: 'zmdi icon',
