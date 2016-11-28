@@ -9,7 +9,7 @@
             </div>
         </li>
         <li class="logo">
-            <a href="{{ url('admin') }}"><img src="{{ asset('assets/images/canvas-logo-white.gif') }}" class="cl hidden-xs" style="width: 100px"></a>
+            <a href="{{ url('admin') }}">艾路群控控制台</a>
         </li>
         <li class="pull-right">
             <ul class="top-menu">

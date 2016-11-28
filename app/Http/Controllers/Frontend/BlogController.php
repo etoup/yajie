@@ -23,8 +23,8 @@ class BlogController extends Controller
         $tag = $request->get('tag');
         $data = $this->dispatch(new BlogIndexData($tag));
         $layout = $tag ? Tag::layout($tag)->first() : config('blog.tag_layout');
-
-        return view($layout, $data);
+        $posts = Post::limit(3)->get();
+        return view($layout, $data)->withPosts($posts);
     }
 
     /**
