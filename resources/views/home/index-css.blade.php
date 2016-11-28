@@ -1,10 +1,8 @@
 <!-- Application Styles -->
-<link rel="stylesheet" type="text/css" href="{{ elixir('assets/css/bootstrap.min.css') }}">
-<link rel="stylesheet" type="text/css" href="{{ elixir('assets/css/vendor.css') }}">
-<link rel="stylesheet" type="text/css" href="{{ elixir('assets/css/style.css') }}">
-<link rel="stylesheet" type="text/css" href="{{ elixir('assets/css/custom.css') }}">
-<link rel="stylesheet" type="text/css" href="{{ elixir('assets/js/fancybox/jquery.fancybox.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ elixir('assets/css/default.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ elixir('assets/css/layout.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ elixir('assets/css/media-queries.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ elixir('assets/css/animate.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ elixir('assets/css/prettyPhoto.css') }}">
 
-<!--[if lte IE 9]><!-->
-<script src='{{ elixir('assets/js/vendor/html5shiv.min.js') }}'></script>
-<!--<![endif]-->
+<script src='{{ elixir('assets/js/modernizr.js') }}'></script>
