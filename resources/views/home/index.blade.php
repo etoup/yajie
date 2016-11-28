@@ -1,7 +1,7 @@
 @extends('home.layout')
 
 @section('title')
-    <title>{{ $tag->title or Settings::blogTitle() }} | 艾路群控</title>
+    <title>{{ $tag->title or Settings::blogTitle() }} | 手机群控|微信群控|新媒体营销系统|金融微商自动化营销软件</title>
 @stop
 
 @section('content')
