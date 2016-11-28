@@ -333,7 +333,7 @@
 
          <div class="three columns action">
 
-            <a href="#" class="button">立即开启营销新模式</a>
+            <a class="button" href="http://wpa.qq.com/msgrd?v=3&amp;uin=1121071666&amp;site=qq&amp;menu=yes" target="_blank" rel="nofollow" title="在线客服">立即开启营销新模式</a>
 
          </div>
 
