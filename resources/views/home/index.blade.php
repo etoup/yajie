@@ -546,7 +546,7 @@
 
             <div class="footer-logo">
                <a href="#">
-                  <img src="/assets/images/footer-logo.png" alt="" />
+                  <img src="/assets/images/wechat.jpg" alt="" />
                </a>
             </div>
 
