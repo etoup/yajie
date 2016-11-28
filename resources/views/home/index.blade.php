@@ -570,7 +570,7 @@
          <div class="six columns info">
 
             <div class="footer-logo">
-               <a href="#">
+               <a href="#" data-toggle="modal" data-target="#myModal">
                   <img src="/assets/images/wechat.jpg" alt="" />
                </a>
             </div>
