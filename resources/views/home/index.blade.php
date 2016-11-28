@@ -37,13 +37,32 @@
       </nav> <!-- end #nav-wrap -->
 
       <ul class="header-social">
-         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-         <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+         <li><a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-wechat"></i></a></li>
+
+         <li>
+             <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=1121071666&amp;site=qq&amp;menu=yes" target="_blank" rel="nofollow" title="在线客服"><i class="fa fa-qq"></i></a>
+         </li>
+         
       </ul>
+
+        
 
    </header> <!-- Header End -->
 
+    <!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">艾路群控官方微信</h4>
+      </div>
+      <div class="modal-body">
+        <img src="/assets/images/wechat.jpg" alt="" />
+      </div>
+    </div>
+  </div>
+</div>
 
    <!-- Homepage Hero
    ================================================== -->
@@ -186,7 +205,7 @@
                   </ul>
 
                   <footer class="plan-sign-up">
-                     <a class="button" href="">立即购买</a>
+                     <a class="button" href="http://wpa.qq.com/msgrd?v=3&amp;uin=1121071666&amp;site=qq&amp;menu=yes" target="_blank" rel="nofollow" title="在线客服">立即购买</a>
                   </footer>
 
                </div> <!-- End Price Block -->
@@ -211,7 +230,7 @@
                   </ul>
 
                   <footer class="plan-sign-up">
-                     <a class="button" href="">立即购买</a>
+                     <a class="button" href="http://wpa.qq.com/msgrd?v=3&amp;uin=1121071666&amp;site=qq&amp;menu=yes" target="_blank" rel="nofollow" title="在线客服">立即购买</a>
                   </footer>
 
                </div> <!-- End Price Block -->
@@ -236,7 +255,7 @@
                   </ul>
 
                   <footer class="plan-sign-up">
-                     <a class="button" href="">立即购买</a>
+                     <a class="button" href="http://wpa.qq.com/msgrd?v=3&amp;uin=1121071666&amp;site=qq&amp;menu=yes" target="_blank" rel="nofollow" title="在线客服">立即购买</a>
                   </footer>
 
                </div> <!-- End Price block -->
@@ -261,7 +280,7 @@
                   </ul>
 
                   <footer class="plan-sign-up">
-                     <a class="button" href="">立即购买</a>
+                     <a class="button" href="http://wpa.qq.com/msgrd?v=3&amp;uin=1121071666&amp;site=qq&amp;menu=yes" target="_blank" rel="nofollow" title="在线客服">立即购买</a>
                   </footer>
 
                </div> <!-- End Price Block -->
@@ -551,7 +570,7 @@
             </div>
 
             <p>
-            艾路群控-手机群控
+            艾路群控官方微信
             </p>
 
          </div>
@@ -603,6 +622,7 @@
 <script>window.jQuery || document.write("elixir('assets/js/jquery-1.10.2.min.js')")</script>
 <script src="{{ elixir('assets/js/jquery-migrate-1.2.1.min.js') }}"></script>
 <script src="{{ elixir('assets/js/jquery.flexslider.js') }}"></script>
+<script src="{{ elixir('assets/js/vendor/bootstrap.min.js') }}"></script>
 <script src="{{ elixir('assets/js/waypoints.js') }}"></script>
 <script src="{{ elixir('assets/js/jquery.fittext.js') }}"></script>
 <script src="{{ elixir('assets/js/jquery.fitvids.js') }}"></script>

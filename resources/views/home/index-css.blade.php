@@ -1,4 +1,5 @@
 <!-- Application Styles -->
+<link rel="stylesheet" type="text/css" href="{{ elixir('assets/css/bootstrap.min.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ elixir('assets/css/default.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ elixir('assets/css/layout.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ elixir('assets/css/media-queries.css') }}">
