@@ -64,6 +64,21 @@
   </div>
 </div>
 
+<!-- Modal -->
+<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">视频演示</h4>
+      </div>
+      <div class="modal-body">
+        视频演示
+      </div>
+    </div>
+  </div>
+</div>
+
    <!-- Homepage Hero
    ================================================== -->
    <section id="hero">
@@ -82,7 +97,7 @@
                </div>
 
             <div class="buttons">
-               <a class="button trial" href="#">视频演示</a>
+               <a class="button trial" href="#" data-toggle="modal" data-target="#modal">视频演示</a>
                <a class="button learn-more smoothscroll" href="#subscribe">联系我们</a>
             </div>
 
