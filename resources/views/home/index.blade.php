@@ -365,7 +365,7 @@
                <div class="columns item">
                   <div class="item-wrap">
 
-                     <a href="images/screenshots/big/b-line-icons.jpg" data-imagelightbox="a" >
+                     <a href="/assets/images/screenshots/big/i1.png" data-imagelightbox="a" >
                         <img src="/assets/images/screenshots/line-icons.jpg" alt="Line Icons">
                         <div class="overlay"></div> 
                         <div class="link-icon"><i class="icon-plus"></i></div>
@@ -377,7 +377,7 @@
                <div class="columns item">
                   <div class="item-wrap">
 
-                     <a href="images/screenshots/big/b-hipster.jpg" data-imagelightbox="a" >
+                     <a href="/assets/images/screenshots/big/i2.png" data-imagelightbox="a" >
                         <img src="/assets/images/screenshots/hipster.jpg" alt="Hipster">
                         <div class="overlay"></div>
                         <div class="link-icon"><i class="icon-plus"></i></div>
@@ -389,7 +389,7 @@
                <div class="columns item">
                   <div class="item-wrap">
 
-                     <a href="images/screenshots/big/b-authentic-vintage.jpg" data-imagelightbox="a" >
+                     <a href="/assets/images/screenshots/big/i3.png" data-imagelightbox="a" >
                         <img src="/assets/images/screenshots/authentic-vintage.jpg" alt="Authentic Vintage">                        
                         <div class="overlay"></div>
                         <div class="link-icon"><i class="icon-plus"></i></div>
@@ -401,7 +401,7 @@
                <div class="columns item">
                   <div class="item-wrap">
 
-                     <a href="images/screenshots/big/b-spot-uv-logo.jpg" data-imagelightbox="a" >
+                     <a href="/assets/images/screenshots/big/i4.png" data-imagelightbox="a" >
                         <img src="/assets/images/screenshots/spot-uv-logo.jpg" alt="Spot UV Logo">
                         <div class="overlay"></div>
                         <div class="link-icon"><i class="icon-plus"></i></div>
@@ -413,7 +413,7 @@
                <div class="columns item">
                   <div class="item-wrap">
 
-                     <a href="images/screenshots/big/b-tshirt-mockup.jpg" data-imagelightbox="a" >
+                     <a href="/assets/images/screenshots/big/i5.png" data-imagelightbox="a" >
                         <img src="/assets/images/screenshots/tshirt-mockup.jpg" alt="TShirt Mockup">
                         <div class="overlay"></div>
                         <div class="link-icon"><i class="icon-plus"></i></div>
@@ -425,7 +425,7 @@
                <div class="columns item">
                   <div class="item-wrap">
 
-                     <a href="images/screenshots/big/b-abstract-vector.jpg" data-imagelightbox="a" >
+                     <a href="/assets/images/screenshots/big/i6.png" data-imagelightbox="a" >
                         <img src="/assets/images/screenshots/abstract-vector.jpg" alt="Abstract Vector">
                         <div class="overlay"></div>
                         <div class="link-icon"><i class="icon-plus"></i></div>
@@ -437,7 +437,7 @@
                <div class="columns item">
                   <div class="item-wrap">
 
-                     <a href="images/screenshots/big/b-embossed-paper.jpg" data-imagelightbox="a" >
+                     <a href="/assets/images/screenshots/big/i7.png" data-imagelightbox="a" >
                         <img src="/assets/images/screenshots/embossed-paper.jpg" alt="Embossed Paper">                        
                         <div class="overlay"></div>
                         <div class="link-icon"><i class="icon-plus"></i></div>
@@ -449,7 +449,7 @@
                <div class="columns item">
                   <div class="item-wrap">
 
-                     <a href="images/screenshots/big/b-judah.jpg" data-imagelightbox="a" >
+                     <a href="/assets/images/screenshots/big/i8.png" data-imagelightbox="a" >
                         <img src="/assets/images/screenshots/judah.jpg" alt="Judah">
                         <div class="overlay"></div>
                         <div class="link-icon"><i class="icon-plus"></i></div>
